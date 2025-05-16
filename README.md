@@ -1,4 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ALX Listing App.
+---
+## Project Description
+
+This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project will cover frontend development, backend APIs, database design, and deployment.
+
+## Tech Stack
+- **Frontend**: HTML, CSS, JavaScript (React or similar framework)
+- **Version Control**: Git and GitHub
+- **Design Tools**: Figma for UI/UX design
+
+# Project Structure Overview
+
+This project follows a modular and scalable folder structure to promote reusability and maintainability. Below is a breakdown of the key directories and their purposes:
+
+## components/
+This directory contains all reusable UI components used throughout the application.
+
+## interfaces/
+This folder holds all TypeScript interfaces and types used in the project to enforce type safety and improve code readability.
+
+## constants/
+This folder stores constant values that are reused across the application, helping to avoid magic strings and hardcoded values.
+
+## public/assets/
+This directory contains static files such as images, icons, and fonts. These assets can be referenced directly in the app using the `/assets/...` path.
+
+---
+
+This structure is designed to help you scale the application while keeping the codebase clean and maintainable.
 
 ## Getting Started
 
